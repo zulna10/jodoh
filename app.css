@@ -1,0 +1,124 @@
+body{
+
+
+}
+h2{
+    text-align: center;
+    font-size: medium;
+    font-weight: 200;
+}
+
+
+h4{
+    text-align: center;
+    margin: 15px 0px;
+}
+.box{
+    background-color: rgb(112, 112, 253);
+    width: 250px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin: 10px 30px;
+    align-items: center;
+}
+
+.box-kamu, .pasangan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landa,.lapasangan{
+    font-size: 20px;
+    font-weight: 200;
+}
+#kamu,#pasangan{
+ height: 30px;
+ width: 100%;
+ border-radius: 5px;
+ border: none;
+ outline: none;
+ font-size: 15px ;
+ text-decoration: none;
+ padding:1px 8px
+}
+
+.cek-hasil{
+    background-color: rgba(168, 168, 168, 0.641);
+    width: 230px;
+    height: 130px;
+    margin-top:20px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 100;
+    letter-spacing: 0.5px ;
+    padding: 0px auto;
+    
+}
+.hasil{
+    padding: 10px 20px;
+    margin-top: 0;
+}
+.cek,.ulang{
+     width: 50%;
+     height: 30px;
+     margin-top: 20px;
+     border-radius: 10px;
+     outline: none;
+     border: none;
+     background-color: rgb(169, 242, 60);
+}
+.cek:hover{
+    background-color: rgb(153, 207, 72);
+    color: white;
+}
+.ulang{
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+.ulang:hover{
+    background-color: rgb(153, 207, 72);
+    color: white;
+}
+
+@media (min-width:500px) {
+    
+    .box{
+        display: flex;
+        width: 70%;
+    }
+    .container{
+        margin: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media (min-width:900px){
+    .cek,.ulang{
+        width: 30%;
+        height: 30px;
+        margin-top: 20px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        background-color: rgb(169, 242, 60);
+    }
+        #kamu,#pasangan{
+            height: 30px;
+            width: 100%;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            font-size: 15px ;
+            text-decoration: none;
+            padding:1px 8px
+           }
+}
+
